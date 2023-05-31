@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.name {
+    font-weight: 200;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+
+}
+
+.caixa {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    width: 400px;
+    border: 1px solid black;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+button {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+
+.modal {
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.modal button {
+    border-radius: 20px;
+    width: 180px;
+    padding: .5rem;
+}
+
+#cancelar {
+    background-color: black;
+    color: white;
+}
+
+.enviar {
+    border: 1px solid black;
+}
+
+.modal-content {
+    width: 40%;
+    margin: 15% auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.modal-content form {
+    font-size: 24px;
+    gap: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-content input {
+    display: flex;
+    width: 300px;
+    padding: .5rem;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 400;
+}
+
+.modal-content .mensagem {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: large;
+}
+
+main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    padding: 1rem;
+}
+
+.box1{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+.icones {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#likeBtn {
+    background-color: transparent;
+    border: none;
+}
+
+button{
+    cursor: pointer;
+}

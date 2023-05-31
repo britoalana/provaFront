@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Fotografa</h1>
+        <h1 class="name">Alana Beatriz</h1>
+        <div class="caixa">
+            <button>Home</button>
+            <button>Portfólio</button>
+            <button id="myModal">Contato</button>
+            <div class="modal">
+                <div class="modal-content">
+                    <form action="">
+                        <p>Formulário de contato</p>
+                        <input type="text" id="nome" placeholder="Digite seu nome">
+                        <input type="email" id="email" placeholder="Digite seu email">
+                        <input id="numero" type="number" placeholder="Digite seu número de contato">
+                        <input id="mensagem" class="mensagem" placeholder="Deixe uma mensagem...">
+                        <button id="cancelar">Cancelar</button>
+                        <button id="enviar" type="submit" class="enviar">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <button>Casamentos</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="box1">
+            <div class="row1"><img id="foto1" src="./assets/img/Foto1.png" alt="">
+                <button id="likeBtn"><img id="likeImg" src="./assets/icones/Coracao.svg" alt=""></button>
+            </div>
+            <article><img id="foto2" src="./assets/img/Foto2.png" alt="">
+                <button id="likeBtn"><img id="likeImg" src="./assets/icones/Coracao.svg" alt=""></button></article>
+
+            <div class="row2"> <img id="foto" src="./assets/img/Foto3.png" alt="">
+                <button id="likeBtn"><img id="likeImg" src="./assets/icones/Coracao.svg" alt=""></button>
+                <img id="foto4" src="./assets/img/Foto4.png" alt="">
+                <button id="likeBtn"><img id="likeImg" src="./assets/icones/Coracao.svg" alt=""></button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <P>Desenvolvido por </P>
+        <p>Carlos Wilton e Jonathas Maciel</p>
+
+        <div class="icones"><img src="./assets/icones/Facebook.svg" alt="">
+            <img src="./assets/icones/Instagram.svg" alt="">
+            <img src="./assets/icones/Twitter.svg" alt="">
+            <img src="./assets/icones/Twitch.svg" alt="">
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
